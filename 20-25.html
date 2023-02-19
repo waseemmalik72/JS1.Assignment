@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Method 20-25</title>
+</head>
+
+<body>
+    <h1>JavaScript Assignment 20-25</h1>
+
+
+
+    <script>
+        // Q no 1
+
+        //. Write a program that takes two user inputs for first and last
+        // name using prompt and merge them in a new variable titled
+        // fullName. Greet the user using his full name.
+
+        var firstName = prompt("Enter Your First Name");
+        var lastName = prompt("Enter your last name");
+        var fullName = firstName + " " + lastName;
+
+        alert("Hello" + " " + fullName + "!");
+
+       // Q no 2
+//         . Write a program to take a user input about his favorite mobile
+// phone model. Find and display the length of user input in your
+// browser.
+
+        var phone = prompt("Enter Your Mobile model And find your Phone length");
+        var inputLength = phone.length;
+
+        document.write("The length of your favourite Phone model is" + " " + inputLength + " Character" + "<br>");
+
+        // Q no 3
+//         Write a program to find the index of letter “n” in the word
+// “Pakistani” and display the result in your browser.
+
+        var findIndex = "Pakistani";
+        var ind = findIndex.indexOf("n");
+        document.write("Pakistani index 'n' is" + " " + ind + "<br>");
+
+        // Q no 4 
+//         Write a program to find the last index of letter “l” in the word
+// “Hello World” and display the result in your browser.
+
+        var word = "Hello World";
+        var index = word.lastIndexOf("l");
+        document.write("Hello World last index of 'L' is" + " " + index + "<br>");
+
+        // Q no 5 
+//         Write a program to find the character at 3rd index in the word
+// “Pakistani” and display the result in your browser.
+
+        var word = "Pakistani";
+        var index = word.slice(2, 3);
+        document.write("The word Pakistani 3rd Character is" + " " + index + "<br>");
+
+        // Q no 6 
+//         Write a program to replace the “Hyder” to “Islam” in the word
+// “Hyderabad” and display the result in your browser.
+
+        var  originalWord = "Hyderabad";
+        var newWord = originalWord.replace("Hyderabad", "Islamabad");
+
+        document.write("The Orignal word is" + " " + originalWord + "<br>");
+        document.write("The New word is" + " " + newWord + "<br>");
+
+
+
+
+    </script>
+</body>
+
+</html>
+
+
+
+
